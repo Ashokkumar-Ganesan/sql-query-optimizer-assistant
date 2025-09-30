@@ -1,6 +1,7 @@
 # SQL Query Optimizer Assistant ⚡
 
-**AI-powered SQL tuning tool** that analyzes query performance, suggests optimizations, and ensures compatibility with modern database features using Baseline data.
+**Optimize SQL queries in seconds, not hours.**  
+An AI-powered assistant that analyzes query performance, suggests optimizations, and ensures compatibility with modern database features using Baseline data.
 
 ![SQL Optimizer Demo](docs/screenshot1.png)
 
@@ -30,33 +31,36 @@ Manual SQL tuning is slow, inconsistent, and often opaque. Developers waste hour
 ---
 
 ## ✨ Features
-- Accepts raw SQL queries via UI or CLI.
-- Parses execution plans and detects inefficiencies.
-- Suggests indexes, join rewrites, and query restructuring.
-- Predicts performance gains with estimated execution time.
-- Logs every suggestion with reasoning for auditability.
+- 🔍 **Analyze any SQL query** — detect inefficiencies instantly.  
+- ⚡ **Suggest indexes & rewrites** — improve performance with one click.  
+- 📊 **Predict performance gains** — estimated execution time before changes.  
+- 📝 **Explain every suggestion** — transparent, audit‑friendly logs.  
+- 🔒 **Future‑proof syntax** — checks against Baseline web features.  
 
 ---
 
 ## 🛠 Built With
-- **Languages:** Python, SQL (PostgreSQL), JavaScript
-- **Frameworks & Libraries:** Pandas, SQLAlchemy, psycopg2, Flask
-- **Platforms:** GitHub, AWS S3 (for logs)
-- **Databases:** PostgreSQL
-- **APIs & Data Sources:** Baseline `web-features` npm package, PostgreSQL EXPLAIN/ANALYZE
-- **Tools:** VS Code, Git, Docker, Markdown, LaTeX
+- **Languages:** Python, SQL (PostgreSQL)  
+- **Frameworks & Libraries:** Flask, Pandas, SQLAlchemy, psycopg2  
+- **Databases:** PostgreSQL  
+- **Data Sources:** Baseline `web-features` npm package, PostgreSQL EXPLAIN/ANALYZE  
+- **Tools:** GitHub, Docker, VS Code, Markdown  
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Python 3.10+
-- PostgreSQL (local or cloud instance)
-- Git
+- Python 3.10+  
+- PostgreSQL (local or cloud instance)  
+- Git  
 
 ### Installation
-1. **Clone the repo**
+1. Clone the repo:
    ```bash
-   git clone https://github.com/Ashokkumar-Ganesan/sql-query-optimizer-assistant.git
+   git clone https://github.com/<your-username>/sql-query-optimizer-assistant.git
    cd sql-query-optimizer-assistant
+2. Install dependencies:   
+   pip install -r requirements.txt
+3. (Optional) Update config.py with your PostgreSQL credentials.
+   
