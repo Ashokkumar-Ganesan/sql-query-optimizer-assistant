@@ -87,6 +87,7 @@ WHERE c.region = 'EU';
 Distributed under the MIT License. See LICENSE for details.
 
 🙏 Acknowledgments
-•	Baseline Tooling Hackathon
-•	PostgreSQL
-•	web features npm package
+- [Baseline Tooling Hackathon](https://baseline.devpost.com) — for sparking the idea and providing the challenge framework  
+- [Devpost Project Page](https://devpost.com/software/sql-query-optimizer-assistant) — full submission with demo, write‑up, and media  
+- [PostgreSQL](https://www.postgresql.org/) — for robust query testing and optimization  
+- [web‑features npm package](https://www.npmjs.com/package/web-features) — for Baseline compatibility data  
