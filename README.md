@@ -3,15 +3,12 @@
 **Optimize SQL queries in seconds with Baseline‑verified AI**  
 An AI‑powered assistant that analyzes SQL queries, detects inefficiencies, and suggests optimizations like index creation and join restructuring. Built with Python, PostgreSQL, and Baseline web‑features data, it delivers explainable, auditable improvements that cut execution time by up to **60%** — saving developers hours of manual tuning while ensuring forward‑compatible SQL syntax.
 
-![Terminal demo showing before/after optimization and 60% speed gain](docs/screenshot-terminal.png)
-
+### 🖥 Terminal Demo
+Shows the CLI with the original slow query, the AI‑optimized query, index suggestion, and the 60% speed gain.
 ---
-
 ### 🌐 Web UI
 *A minimal web interface where developers can paste a SQL query, click **Optimize**, and instantly see the rewritten query, index suggestion, and estimated performance improvement.*
-
 ---
-
 ### 📊 Performance Benchmark
 *A benchmark chart comparing execution times. The original query runs in 2.5 seconds, while the optimized query completes in 1.0 seconds — a 60% improvement.*
 
