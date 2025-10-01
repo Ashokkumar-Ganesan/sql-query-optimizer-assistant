@@ -5,12 +5,12 @@ An AI‑powered assistant that analyzes SQL queries, detects inefficiencies, and
 
 ### 🖥 Terminal Demo
 Shows the CLI with the original slow query, the AI‑optimized query, index suggestion, and the 60% speed gain.
----
+
 ### 🌐 Web UI
-*A minimal web interface where developers can paste a SQL query, click **Optimize**, and instantly see the rewritten query, index suggestion, and estimated performance improvement.*
----
+A minimal web interface where developers can paste a SQL query, click Optimize, and instantly see the rewritten query, index suggestion, and estimated performance improvement.
+
 ### 📊 Performance Benchmark
-***A benchmark chart comparing execution times. The original query runs in 2.5 seconds, while the optimized query completes in 1.0 seconds — a 60% improvement.***
+A benchmark chart comparing execution times. The original query runs in 2.5 seconds, while the optimized query completes in 1.0 seconds — a 60% improvement.
 
 ![Web UI demo showing query input and optimized output](docs/screenshot-ui.png)
 
