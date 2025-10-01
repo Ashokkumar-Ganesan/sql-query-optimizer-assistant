@@ -10,7 +10,7 @@ Shows the CLI with the original slow query, the AI‑optimized query, index sugg
 *A minimal web interface where developers can paste a SQL query, click **Optimize**, and instantly see the rewritten query, index suggestion, and estimated performance improvement.*
 ---
 ### 📊 Performance Benchmark
-*A benchmark chart comparing execution times. The original query runs in 2.5 seconds, while the optimized query completes in 1.0 seconds — a 60% improvement.*
+***A benchmark chart comparing execution times. The original query runs in 2.5 seconds, while the optimized query completes in 1.0 seconds — a 60% improvement.***
 
 ![Web UI demo showing query input and optimized output](docs/screenshot-ui.png)
 
