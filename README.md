@@ -1,11 +1,21 @@
 # SQL Query Optimizer Assistant ⚡
 
-**Optimize SQL queries in seconds with Baseline‑verified AI.**  
+**Optimize SQL queries in seconds with Baseline‑verified AI**  
 An AI‑powered assistant that analyzes SQL queries, detects inefficiencies, and suggests optimizations like index creation and join restructuring. Built with Python, PostgreSQL, and Baseline web‑features data, it delivers explainable, auditable improvements that cut execution time by up to **60%** — saving developers hours of manual tuning while ensuring forward‑compatible SQL syntax.
 
 ![Terminal demo showing before/after optimization and 60% speed gain](docs/screenshot-terminal.png)
 
 ---
+
+### 🌐 Web UI
+*A minimal web interface where developers can paste a SQL query, click **Optimize**, and instantly see the rewritten query, index suggestion, and estimated performance improvement.*
+
+---
+
+### 📊 Performance Benchmark
+*A benchmark chart comparing execution times. The original query runs in 2.5 seconds, while the optimized query completes in 1.0 seconds — a 60% improvement.*
+
+![Web UI demo showing query input and optimized output](docs/screenshot-ui.png)
 
 ## 📋 Table of Contents
 - [About the Project](#about-the-project)
